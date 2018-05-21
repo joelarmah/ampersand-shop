@@ -1,0 +1,13 @@
+version: '2' # specify docker-compose version
+
+services:
+  angular:
+    build: .
+    image: ampersand/ampersand-shop
+    environment:
+      NODE_ENV: development
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+      - /app/node_modules

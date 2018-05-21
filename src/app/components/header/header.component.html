@@ -1,0 +1,74 @@
+<div class="header navbar">
+  <div class="header-container">
+    <ul class="nav-left">
+      <li>
+        <span class="count-station">{{title}}
+          <!-- <i class="fa fa-caret-down pdd-left-5 location-selector"></i> -->
+        </span>
+      </li>
+      <!-- <button data-toggle="modal" data-target="#default-modal" class="btn btn-sm btn-primary" style="position: absolute; z-index: 100000;">Trigger Welcome Modal</button> -->
+    </ul>
+
+    <ul class="nav-right">
+      <li class="user-profile dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+          <img class="profile-img img-fluid" src="../../../assets/img/user.jpg" alt="">
+          <div class="user-info">
+            <span class="name pdd-right-5">{{ displayName || " Unknown User" }}</span>
+            <i class="fa fa-caret-down font-size-10"></i>
+          </div>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="account-settings">
+              <i class="fa fa-cog pdd-right-10"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a (click)="logout()" href="javascript:void(0);">
+              <i class="fa fa-power-off pdd-right-10"></i>
+              <span>Logout</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="notifications dropdown">
+        <span class="counter">2</span>
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="fa fa-bell"></i>
+        </a>
+
+        <ul class="dropdown-menu ">
+          <li class="notice-header">
+            <i class="fa fa-bell"></i>
+            <span>Notifications</span>
+          </li>
+          <li>
+            <ul class="list-info overflow-y-auto relative scrollable">
+              <li>
+                <a href="">
+                  <img class="thumb-img" src="../assets/img/avatars/thumb-1.jpg" alt="">
+                  <div class="info">
+                    <span class="title">
+                      <span class="font-size-14 text-semibold">Jennifer Watkins</span>
+                      <span class="text-gray">commented on your
+                        <span class="text-dark">post</span>
+                      </span>
+                    </span>
+                    <span class="sub-title">5 mins ago</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+</li>
+
+        </ul>
+        </li>
+
+    </ul>
+  </div>
+</div>

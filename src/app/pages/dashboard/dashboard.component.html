@@ -1,0 +1,168 @@
+<div class="app">
+    <div class="layout">
+        <!-- Side Nav START -->
+        <app-side-nav title="My Products"></app-side-nav>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+            <!-- Header START -->
+            <app-header title="My Products"></app-header>
+            <!-- Header END -->
+
+            <!-- Add or Edit Modal START -->
+            <app-add-or-edit-product></app-add-or-edit-product>
+            <!-- Add or Edit Modal END -->
+
+            <!-- Content Wrapper START -->
+            <div class="main-content">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-md-6 mr-auto ml-auto">
+                            <img class="img-fluid d-block mrg-horizon-auto" src="assets/img/cart.png" alt="">
+                            <div class="text-center">
+                                <h2>You have no products</h2>
+                                <button data-toggle="modal" data-target="#side-modal-r" class="btn btn-info btn-primary btn-lg">Add a Product</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="portlet">
+                                    <ul class="portlet-item navbar">
+                                        <li class="dropdown">
+                                            <a href="" class="btn btn-icon btn-flat btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-h"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href=""><i class="fa fa-edit pdd-right-10"></i><span>Edit</span></a></li>
+                                                <li><a href=""><i class="fa fa-close pdd-right-10"></i><span>Delete</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li>
+                                          <a href="javascript:void(0);" class="btn btn-icon btn-flat btn-rounded" data-toggle="card-delete">
+                                              <i class="fa fa-close"></i>
+                                          </a>
+                                      </li> -->
+                                    </ul>
+                                </div>
+                                <div class="card-heading">
+                                    <h4 class="card-title">Sandwich</h4>
+                                </div>
+                                <div class="card-media">
+                                    <img class="img-responsive" src="../../../assets/img/products/sandwich.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <!-- <p>Not bad for a little furball. There's only one left. You stay here. We'll take care ofthis.
+                                        I have decided that we shall stay here.</p> -->
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p class="text-dark no-mrg text-uppercase font-size-13">
+                                                <b>Price</b>
+                                            </p>
+                                            <h1 class="no-mrg-top text-primary font-size-20">¢8.00</h1>
+                                        </div>
+
+                                        <div class="col-md-6 mr-auto ml-auto">
+                                            <p class="text-dark no-mrg text-uppercase font-size-13">
+                                                <b>Qty Available</b>
+                                            </p>
+                                            <h1 class="no-mrg-top text-primary font-size-20">212</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span>Total Item Sold:<b>168</b></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- <div class="card-footer border top">
+                                  <ul class="list-unstyled list-inline pull-right">
+                                    
+                                  </ul>
+                              </div> -->
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                                <div class="card">
+                                    <div class="portlet">
+                                        <ul class="portlet-item navbar">
+                                            <li class="dropdown">
+                                                <a href="" class="btn btn-icon btn-flat btn-rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-h"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href=""><i class="fa fa-edit pdd-right-10"></i><span>Edit</span></a></li>
+                                                    <li><a href=""><i class="fa fa-close pdd-right-10"></i><span>Delete</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!-- <li>
+                                              <a href="javascript:void(0);" class="btn btn-icon btn-flat btn-rounded" data-toggle="card-delete">
+                                                  <i class="fa fa-close"></i>
+                                              </a>
+                                          </li> -->
+                                        </ul>
+                                    </div>
+                                    <div class="card-heading">
+                                        <h4 class="card-title">Capuccino</h4>
+                                    </div>
+                                    <div class="card-media">
+                                        <img class="img-responsive" src="../../../assets/img/products/cappuccino.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- <p>Not bad for a little furball. There's only one left. You stay here. We'll take care ofthis.
+                                            I have decided that we shall stay here.</p> -->
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p class="text-dark no-mrg text-uppercase font-size-13">
+                                                    <b>Price</b>
+                                                </p>
+                                                <h1 class="no-mrg-top text-primary font-size-20">¢8.00</h1>
+                                            </div>
+    
+                                            <div class="col-md-6 mr-auto ml-auto">
+                                                <p class="text-dark no-mrg text-uppercase font-size-13">
+                                                    <b>Qty Available</b>
+                                                </p>
+                                                <h1 class="no-mrg-top text-primary font-size-20">212</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span>Total Item Sold:<b>168</b></span>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <!-- <div class="card-footer border top">
+                                      <ul class="list-unstyled list-inline pull-right">
+                                        
+                                      </ul>
+                                  </div> -->
+                                </div>
+                            </div>
+
+                      
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Content Wrapper END -->
+
+            <!-- Footer START -->
+            <app-footer></app-footer>
+            <!-- Footer END -->
+
+        </div>
+        <!-- Page Container END -->
+
+    </div>
+</div>
