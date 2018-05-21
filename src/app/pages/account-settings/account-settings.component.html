@@ -1,0 +1,154 @@
+<div class="app">
+  <div class="layout">
+    <!-- Side Nav START -->
+    <app-side-nav title="My Products"></app-side-nav>
+    <!-- Side Nav END -->
+
+    <!-- Page Container START -->
+    <div class="page-container">
+
+      <!-- Header START -->
+      <app-header title="Account Settings"></app-header>
+      <!-- Header END -->
+
+      <!-- Content Wrapper START -->
+      <div class="main-content">
+        <div class="container-fluid">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-heading border bottom">
+                      <h4 class="card-title">Business Info</h4>
+                    </div>
+                    <div class="card-block">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <p class="mrg-top-10 text-dark">
+                            <b>Business Name</b>
+                          </p>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" class="form-control" value="My Business">
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <p class="mrg-top-10 text-dark">
+                            <b>Logo</b>
+                          </p>
+                        </div>
+                        <div class="col-md-6">
+                          <div>
+                            <label for="img-upload" class="pointer">
+                              <img class="img-thumbnail img-fluid" src="../../../assets/img/shop-logo.png" width="110" alt="">
+                              <span class="btn btn-default display-block no-mrg-btm">Choose file</span>
+                              <input class="d-none" type="file" name="uploadedimages0" multiple="" id="img-upload">
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                          <div class="col-md-3">
+                            <p class="mrg-top-10 text-dark">
+                              <b>Banner</b>
+                            </p>
+                          </div>
+                          <div class="col-md-6">
+                            <div>
+                              <label for="img-upload" class="pointer">
+                                <img  class="img-thumbnail img-fluid" src="../../../assets/img/banner.jpg" alt="">
+                                <span class="btn btn-default display-block no-mrg-btm">Choose file</span>
+                                <input class="d-none" type="file" name="uploadedimages0" multiple="" id="img-upload">
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                              <p class="mrg-top-10 text-dark">
+                                <b>About Business</b>
+                              </p>
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="form-control" rows="2">We specialize in preparing the most delicious sandwiches and beverages...</textarea>
+                              </div>
+                          </div>
+                        
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-heading border bottom">
+                      <h4 class="card-title">Notification Settings</h4>
+                    </div>
+                    <div class="card-block">
+                      <div class="row">
+                        <div class="col-md-10">
+                          <ul class="list-unstyled list-info">
+                            <li>
+                              <span class="thumb-img pdd-top-10">
+                                <i class="fa fa-user font-size-30"></i>
+                              </span>
+                              <div class="info">
+                                <b class="text-dark font-size-16">Purchases</b>
+                                <p>Receive notifications for all purchases</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <div class="toggle-checkbox toggle-success checkbox-inline toggle-sm mrg-top-15">
+                            <input type="checkbox" name="toggle1" id="toggle1" checked="">
+                            <label for="toggle1"></label>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-md-10">
+                          <ul class="list-unstyled list-info">
+                            <li>
+                              <span class="thumb-img pdd-top-10">
+                                <i class="fa fa-mobile font-size-30"></i>
+                              </span>
+                              <div class="info">
+                                <b class="text-dark font-size-16">Low stock</b>
+                                <p>Receive notifications when stock left is 10</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <div class="toggle-checkbox toggle-success checkbox-inline toggle-sm mrg-top-15">
+                            <input type="checkbox" name="toggle2" id="toggle2">
+                            <label for="toggle2"></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content Wrapper END -->
+
+      <!-- Footer START -->
+      <app-footer></app-footer>
+      <!-- Footer END -->
+
+    </div>
+    <!-- Page Container END -->
+
+  </div>
+</div>

@@ -14,6 +14,7 @@ import { AddOrEditProductComponent } from './pages/add-or-edit-product/add-or-ed
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { ViewProductComponent } from './pages/view-product/view-product.component';
+import { AccountSettingsComponent } from './pages/account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ViewProductComponent } from './pages/view-product/view-product.componen
     AddOrEditProductComponent,
     ProductDetailsComponent,
     RegisterComponent,
-    ViewProductComponent
+    ViewProductComponent,
+    AccountSettingsComponent
   ],
   imports: [
     BrowserModule,
