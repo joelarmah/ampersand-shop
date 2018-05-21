@@ -13,6 +13,7 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { AddOrEditProductComponent } from './pages/add-or-edit-product/add-or-edit-product.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { ViewProductComponent } from './pages/view-product/view-product.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterComponent } from './pages/register/register.component';
     SideNavComponent,
     AddOrEditProductComponent,
     ProductDetailsComponent,
-    RegisterComponent
+    RegisterComponent,
+    ViewProductComponent
   ],
   imports: [
     BrowserModule,

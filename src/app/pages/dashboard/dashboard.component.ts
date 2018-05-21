@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $;
 
 @Component({
   selector: 'app-dashboard',
@@ -10,6 +11,11 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  viewProduct() {
+    $('#side-modal-r-view').modal('show');
   }
 
 }

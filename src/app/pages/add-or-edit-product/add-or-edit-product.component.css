@@ -1,0 +1,11 @@
+.modal-right .modal-dialog, .modal-left .modal-dialog {
+    width: 700px;
+}
+
+.generate-sku {
+    position: absolute;
+    right: 15px;
+    top: 34px;
+    z-index: 1000;
+    padding: 5px;
+}

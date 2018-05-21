@@ -6,44 +6,53 @@
           <div class="table-cell">
             <div class="pdd-horizon-15">
               <h4>Add a New Product</h4>
-              <p class="mrg-btm-15 font-size-13">Please enter your email and password to create account</p>
+              <!-- <p class="mrg-btm-15 font-size-13">Please enter your email and password to create account</p> -->
 
               <form class="form-horizontal mrg-top-40 pdd-right-30">
+
                 <div class="form-group row">
-                  <label for="form-1-1" class="col-md-2 control-label">Name</label>
-                  <div class="col-md-10">
+                  <div class="col-md-12">
+                    <label for="form-1-1" class="control-label">Product Name</label>
                     <input type="text" class="form-control" id="form-1-1" placeholder="Name">
                   </div>
                 </div>
+
                 <div class="form-group row">
-                  <label for="form-1-2" class="col-md-2 control-label">SKU</label>
-                  <div class="col-md-10">
+                    <div class="col-md-12">
+                      <label for="form-1-4" class="control-label">Product Photo</label>
+                      <input type="file" class="form-control" id="form-1-4" placeholder="photo">
+                    </div>
+                  </div>
+
+                <div class="form-group row">
+                  <div class="col-md-12">
+                    <label for="form-1-2" class="control-label">SKU</label>
                     <input type="text" class="form-control" id="form-1-2" placeholder="SKU">
-                    <button class="btn btn-default btn-icon"><i class="fa fa-shopping-basket"></i></button>
+                    <button class="btn btn-default btn-icon generate-sku">
+                      <i class="fa fa-shopping-basket"></i>
+                    </button>
                   </div>
                 </div>
+
                 <div class="form-group row">
-                  <label for="form-1-3" class="col-md-2 control-label">Price</label>
-                  <div class="col-md-10">
+                  <div class="col-md-6">
+                    <label for="form-1-3" class="control-label">Price</label>
                     <input type="number" class="form-control" id="form-1-3" placeholder="¢0.00">
                   </div>
-                </div>
-                <div class="form-group row">
-                  <label for="form-1-4" class="col-md-2 control-label">Quantity</label>
-                  <div class="col-md-10">
-                    <input type="text" class="form-control" id="form-1-4" placeholder="Disabled Input">
+                  <div class="col-md-6">
+                    <label for="form-1-4" class="control-label">Quantity</label>
+                    <input type="number" class="form-control" id="form-1-4" placeholder="1">
                   </div>
                 </div>
+
                 <div class="form-group row">
-                  <label for="form-1-5" class="col-md-2 control-label">Description</label>
-                  <div class="col-md-10">
-                    <textarea class="form-control" rows="3" id="form-1-5"></textarea>
+                  <div class="col-md-12">
+                    <label for="form-1-5" class="control-label">Description</label>
+                    <textarea class="form-control" rows="2" id="form-1-5"></textarea>
                   </div>
                 </div>
+
               </form>
-
-
-
             </div>
           </div>
         </div>
